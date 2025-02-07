@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bambeh's Church</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .events, .service-schedule, .about {
+            margin-bottom: 30px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-info {
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bambeh's Church </h1>
+    <p>Welcome to our Church Family</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#events">Events</a>
+    <a href="#service-schedule">Service Schedule</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to Bambeh's Church</h2>
+        <p>We are a community of believers, united in Christ, to spread love, hope, and faith.</p>
+<img src="WG Image 1.jfif" alt="Church Logo">
+<img src="WG Image 2.jfif" alt="inspiration word">
+
+
+    </section>
+
+<section id="video" class="video-section">
+        <h2>Watch Our Latest Sermon</h2>
+        <!-- Embed YouTube Video -->
+        <iframe width="560" height="315" src="<iframe width="560" height="315" src="https://www.youtube.com/embed/raFnjGVkHe8?si=X8yG1xL1TtzbqNVW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <!-- About Section -->
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Our church is dedicated to serving the community and fostering spiritual growth. We believe in the power of prayer, worship, and fellowship to bring people closer to God.</p>
+<img src="WG Image 3.jfif" alt="Church Logo">
+
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li>Sunday Service: Every Sunday at 10:00 AM</li>
+            <li>Bible Study: Wednesdays at 7:00 PM</li>
+            <li>Community Outreach: First Saturday of every month</li>
+        </ul>
+    </section>
+
+    <!-- Service Schedule Section -->
+    <section id="service-schedule" class="service-schedule">
+        <h2>Service Schedule</h2>
+        <p>Join us for our weekly services and connect with our community.</p>
+        <ul>
+            <li>Sunday Morning Worship: 10:00 AM</li>
+            <li>Wednesday Prayer Meeting: 7:00 PM</li>
+            <li>Children's Ministry: Sundays at 10:00 AM</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-info">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to get involved, please contact us:</p>
+        <p>Email: info@bambehschurch.com</p>
+        <p>Phone: (250) 789033128</p>
+        <p>Address: 123 Church St, City, State, Zip</p>
+    </section> 
+
+
+
+</div>
+
+<footer>
+    <p>&copy; 2025 Bambeh's Church . All rights reserved.</p>
+</footer>
+
+</body>
+</html>
